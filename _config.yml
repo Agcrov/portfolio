@@ -1,0 +1,28 @@
+# Site settings
+title: "Your Name - Resume"
+description: "Professional resume and portfolio"
+url: "https://yourusername.github.io"
+baseurl: "/portfolio"
+
+# GitHub Pages settings
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Optional: Add your social links
+github_username: yourusername
+linkedin_username: yourprofile
+
+# Show excerpts on the homepage
+show_excerpts: true
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 
