@@ -1,20 +1,27 @@
 # Site settings
-title: "Your Name - Resume"
+title: "Agustin Crovetto"
 description: "Professional resume and portfolio"
-url: "https://yourusername.github.io"
+url: "https://agcrov.github.io"
 baseurl: "/portfolio"
 
 # GitHub Pages settings
-theme: minima
+remote_theme: b2a3e8/jekyll-theme-console
 markdown: kramdown
 highlighter: rouge
+
+# jekyll-theme-console settings
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - contact.md
+
+# Style options: black (default), dark, hacker, light, gruvbox-dark, gruvbox-light
+style: hacker
 
 # Optional: Add your social links
 github_username: yourusername
 linkedin_username: yourprofile
-
-# Show excerpts on the homepage
-show_excerpts: true
 
 # Exclude files from processing
 exclude:
@@ -25,4 +32,5 @@ exclude:
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
-  - vendor/ruby/ 
+  - vendor/ruby/
+  - AGENT.local.md 
